@@ -1,4 +1,11 @@
 'use strict';
+
+const opts = {
+const optArticleSelector = '.post',
+  optTitleSelector = '.post-title',
+  optTitleListSelector = '.titles';
+};
+
 const titleClickHandler = function(event){
   event.preventDefault();
   const clickedElement = this;
